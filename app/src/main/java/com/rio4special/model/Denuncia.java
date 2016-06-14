@@ -10,6 +10,7 @@ public class Denuncia {
     private Usuario denunciante;
     private String xxxx;
     private String yyy;
+    private String zzz;
 
     public Denuncia(){}
 
