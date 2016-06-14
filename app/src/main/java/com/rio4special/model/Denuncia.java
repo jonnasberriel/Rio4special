@@ -8,7 +8,7 @@ public class Denuncia {
     private String descricao;
     private Date dataCriacao;
     private Usuario denunciante;
-    private String jj;
+    private String jjunior;
 
     public Denuncia(){}
 
