@@ -9,7 +9,7 @@ public class Denuncia {
     private Date dataCriacao;
     private Usuario denunciante;
     private String x;
-    private String y; 
+    private String y;
 
     public Denuncia(){}
 
