@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/white"
+    tools:context="com.rio4special.app.Login">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:gravity="center_horizontal" android:orientation="vertical"
+        android:paddingBottom="@dimen/pad_20dp" android:paddingLeft="@dimen/pad_15dp"
+        android:paddingRight="@dimen/pad_15dp" android:paddingTop="@dimen/pad_20dp">
+
+        <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginBottom="40dp"
+            android:src="@drawable/logo_login_rio4special" />
+
+        <CheckBox android:id="@+id/checkCategoria1" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Restaurante" />
+
+        <CheckBox android:id="@+id/checkCategoria2" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Bar" />
+
+        <CheckBox android:id="@+id/checkCategoria3" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Café" />
+
+        <CheckBox android:id="@+id/checkCategoria4" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Supermercado" />
+
+        <CheckBox android:id="@+id/checkCategoria5" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Aeroporto" />
+
+        <CheckBox android:id="@+id/checkCategoria6" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Hospital" />
+
+        <CheckBox android:id="@+id/checkCategoria7" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Banco" />
+
+        <CheckBox android:id="@+id/checkCategoria8" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_horizontal"
+            android:text="Universidade" />
+
+        <LinearLayout android:id="@+id/main" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="8"
+            android:orientation="horizontal">
+
+            <Button android:id="@+id/btnVoltar" style="@style/btn_white_large"
+                android:layout_width="wrap_content" android:layout_height="65dp"
+                android:layout_weight="1" android:text="Voltar" />
+
+            <Button android:id="@+id/btnPesquisar" style="@style/btn_white_large"
+                android:layout_width="wrap_content" android:layout_height="65dp"
+                android:layout_marginLeft="@dimen/pad_10dp" android:layout_weight="1"
+                android:text="Pesquisar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
